@@ -45,6 +45,16 @@ footer {
 	p { font-size: 16px; }
 }
 
+// FEED VIEWER
+// -------------------------
+.social-feed {
+	.panel-body {
+		img {
+			max-width: 100%;
+		}
+	}
+}
+
 // MEDIA QUERIES
 // -------------------------
 
