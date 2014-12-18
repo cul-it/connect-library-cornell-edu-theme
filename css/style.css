@@ -7019,6 +7019,8 @@ footer {
 .social-feed .panel-body img {
   max-width: 100%;
   height: auto; }
+.social-feed .panel-body p {
+  font-size: 16px; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
