@@ -65,6 +65,12 @@
   </div>
 </div>
 
+<div class="social-feed">
+  <div class="container-fluid">
+    <?php print render($page['feed']); ?>
+  </div>
+</div>
+
 <div class="container">
   <footer>
     <?php print render($page['footer']); ?>
