@@ -59,6 +59,9 @@
         <?php if ($title): ?>
           <h1><?php print $title; ?></h1>
         <?php endif; ?>
+        <?php if(drupal_is_front_page()) {
+          unset($page['content']['system_main']['default_message']);
+        }?>
         <?php print render($page['content']); ?>
       </div>
     </div>
