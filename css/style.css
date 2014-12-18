@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
-@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700,300italic);
+@import url(//fonts.googleapis.com/css?family=Muli:300,400);
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -6906,7 +6906,7 @@ button.close {
     background: #05b7c7; }
 
 body {
-  font-family: "Open Sans Condensed";
+  font-family: "Muli";
   background: #c3c3c3;
   color: black; }
 
