@@ -7017,7 +7017,8 @@ footer {
     font-size: 16px; }
 
 .social-feed .panel-body img {
-  max-width: 100%; }
+  max-width: 100%;
+  height: auto; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
