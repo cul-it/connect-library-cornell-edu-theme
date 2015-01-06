@@ -62,7 +62,9 @@
         <?php if(drupal_is_front_page()) {
           unset($page['content']['system_main']['default_message']);
         }?>
-        <?php print render($page['content']); ?>
+        <?php if ( $is_front !== TRUE ) { 
+          <?php print render($page['content']); ?>
+        } ?>
       </div>
     </div>
   </div>
