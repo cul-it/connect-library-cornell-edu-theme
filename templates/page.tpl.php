@@ -63,7 +63,7 @@
           unset($page['content']['system_main']['default_message']);
         }?>
         <?php if ( $is_front !== TRUE ) { 
-          <?php print render($page['content']); ?>
+          print render($page['content']);
         } ?>
       </div>
     </div>
