@@ -65,6 +65,7 @@
         <?php if ( $is_front !== TRUE ) { 
           print render($page['content']);
         } ?>
+        <?php print render($page['homecontent']); ?>
       </div>
     </div>
   </div>

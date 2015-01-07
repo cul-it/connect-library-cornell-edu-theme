@@ -10,6 +10,7 @@ regions[help]           = 'Help'
 regions[content]        = 'Content'
 regions[footer]   		= 'Footer'
 regions[feed]   		= 'Feed viewer'
+regions[homecontent]   	= 'Home page content'
 
 ; Stylesheets
 ; style.css is referenced in html.tpl.php because when it's loaded via @import statement in Drupal, respond.js doesn't work so IE8 users only see the mobile layout
