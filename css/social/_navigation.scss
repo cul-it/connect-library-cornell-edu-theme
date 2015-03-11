@@ -38,6 +38,7 @@
 		li {
 			font-size: 18px;
 			text-transform: uppercase;
+			float: left;
 			a {
 				color: $dark-gray;
 				text-decoration: none;
@@ -58,6 +59,15 @@
 				background-color: $ice-blue;
 			}
 		}
+	}
+}
+.nav-icons {
+	i {
+		font-size: 40px;
+		color: #dadada;
+	}
+	i:hover {
+		color: white;
 	}
 }
 .navbar-toggle {
