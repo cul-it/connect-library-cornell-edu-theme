@@ -7099,10 +7099,10 @@ footer {
     color: white;
     background-color: #05b7c7; }
 
-.nav-icons i {
+.nav-icons a {
   font-size: 40px;
   color: #dadada; }
-.nav-icons i:hover {
+.nav-icons a:hover {
   color: white; }
 
 .navbar-toggle {
