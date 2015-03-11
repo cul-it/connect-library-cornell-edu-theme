@@ -7020,7 +7020,9 @@ img {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
-  padding-right: 15px; }
+  padding-right: 15px;
+  padding-top: 2em;
+  padding-bottom: 2em; }
   @media (min-width: 768px) {
     .intro-text {
       float: left;
@@ -7069,7 +7071,6 @@ footer {
   font-size: 60px;
   font-weight: 700;
   height: auto;
-  padding: 25px 15px 5px 0;
   line-height: 1.2em;
   float: none;
   display: block;
@@ -7140,7 +7141,7 @@ footer {
 @media (min-width: 992px) {
   .navbar .nav {
     float: right;
-    margin-top: 3em; } }
+    margin-top: 1em; } }
 body.admin-menu {
   padding-top: 0 !important; }
 
