@@ -23,6 +23,13 @@
 	background: white;
 	margin-bottom: 0;
 	border-radius: 0;
+	background: url("../images/dragon.jpg") no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		color: $dark-gray;
+		padding: 30px;
 	.nav {
 		li {
 			font-size: 18px;
