@@ -41,7 +41,11 @@
         </ul>
       </div>
     </div>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat ligula in risus interdum, nec commodo ipsum consectetur.</p>
+    <div class="row">
+      <div class="intro-text">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat ligula in risus interdum, nec commodo ipsum consectetur.</p>
+      </div>
+    </div>
   </div>
 </div>
 

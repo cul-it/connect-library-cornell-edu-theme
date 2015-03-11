@@ -37,6 +37,10 @@
 .navigation {
 	@include make-md-column(6);
 }
+.intro-text {
+	@include make-sm-column(8);
+	@include make-sm-column-offset(2);
+}
 
 // FOOTER
 // -------------------------
