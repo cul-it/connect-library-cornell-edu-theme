@@ -36,7 +36,7 @@
 		padding: 30px;
 	.nav {
 		li {
-			font-size: 18px;
+			font-size: 40px;
 			text-transform: uppercase;
 			float: left;
 			a {
@@ -44,12 +44,14 @@
 				text-decoration: none;
 				i {
 					font-size: 14px;
-					color: $medium-gray;
+					color: $light-gray;
 					margin-left: 5px;
 				}
 			}
 			a:hover {
-				background-color: $light-ice-blue;
+				i {
+					background: white;
+				}
 
 			}
 		}
@@ -61,15 +63,7 @@
 		}
 	}
 }
-.nav-icons {
-	a {
-		font-size: 40px;
-		color: #dadada;
-	}
-	a:hover {
-		color: white;
-	}
-}
+
 .navbar-toggle {
 	float: none;
 	background: $light-gray;

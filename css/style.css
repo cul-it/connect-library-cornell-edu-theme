@@ -7083,7 +7083,7 @@ footer {
   color: #333;
   padding: 30px; }
   .navbar .nav li {
-    font-size: 18px;
+    font-size: 40px;
     text-transform: uppercase;
     float: left; }
     .navbar .nav li a {
@@ -7091,19 +7091,13 @@ footer {
       text-decoration: none; }
       .navbar .nav li a i {
         font-size: 14px;
-        color: #999;
+        color: #c3c3c3;
         margin-left: 5px; }
-    .navbar .nav li a:hover {
-      background-color: #abe4e9; }
+    .navbar .nav li a:hover i {
+      background: white; }
   .navbar .nav li.active a, .navbar .nav li.active a:hover {
     color: white;
     background-color: #05b7c7; }
-
-.nav-icons a {
-  font-size: 40px;
-  color: #dadada; }
-.nav-icons a:hover {
-  color: white; }
 
 .navbar-toggle {
   float: none;
