@@ -2,14 +2,18 @@
 // -------------------------
 
 .navbar-brand {
-	color: black;
-	font-size: 28px;
+	color: white;
+	font-size: 60px;
+	font-weight: 700;
 	height: auto;
 	padding: 25px 15px 5px 0;
 	line-height: 1.2em;
 	float: none;
 	display: block;
 	text-decoration: none;
+	span {
+		font-weight: 300;
+	}
 }
 .navbar-brand:hover {
 	color: black;
@@ -23,7 +27,7 @@
 	background: white;
 	margin-bottom: 0;
 	border-radius: 0;
-	background: url("../images/dragon.jpg") no-repeat;
+	background: url("../images/dragon.jpg") no-repeat 50% 75%;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;

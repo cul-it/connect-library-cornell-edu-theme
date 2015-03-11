@@ -28,7 +28,7 @@
   <div class="container">
     <div class="row">
       <div class="brand">
-        <a class="navbar-brand" href="/">Social@CUL</a>
+        <a class="navbar-brand" href="/">Social<span>@</span>CUL</a>
       </div>
       <div class="social-types">
         <ul class="nav nav-icons">
