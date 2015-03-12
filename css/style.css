@@ -7058,6 +7058,26 @@ footer {
   border-radius: 0;
   box-shadow: none; }
 
+.social-label {
+  padding: 10px; }
+  .social-label i {
+    color: white; }
+
+.social-twitter {
+  background: #5ea9dd; }
+
+.social-youtube {
+  background: #cc181e; }
+
+.social-blog {
+  background: #3fac59; }
+
+.social-instagram {
+  background: #573626; }
+
+.social-flickr {
+  background: #621ea8; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .front .main-text {

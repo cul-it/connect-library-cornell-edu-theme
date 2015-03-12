@@ -87,6 +87,27 @@ footer {
 		box-shadow: none;
 	}
 }
+.social-label {
+	padding: 10px;
+	i {
+		color: white;
+	}
+}
+.social-twitter {
+	background: $twitter;
+}
+.social-youtube {
+	background: $youtube;
+}
+.social-blog {
+	background: $blog;
+}
+.social-instagram {
+	background: $instagram;
+}
+.social-flickr {
+	background: $flickr;
+}
 
 // MEDIA QUERIES
 // -------------------------
