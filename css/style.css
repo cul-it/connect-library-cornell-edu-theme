@@ -7049,7 +7049,8 @@ footer {
   z-index: 100; }
 
 .social-feed {
-  background: #dfdfdf; }
+  background: #dfdfdf;
+  padding: 1em 0; }
   .social-feed .panel-body img {
     max-width: 100%;
     height: auto;
