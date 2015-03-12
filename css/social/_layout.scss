@@ -88,9 +88,11 @@ footer {
 	}
 }
 .social-label {
-	padding: 10px;
+	padding: 6px 10px;
+	display: inline-block;
 	i {
 		color: white;
+		font-size: 24px;
 	}
 }
 .social-twitter {
