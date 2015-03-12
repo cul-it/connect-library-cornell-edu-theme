@@ -65,6 +65,18 @@
   </div>
 </div>
 
+<?php
+  // Render the feed to see if there's anything in it.
+  $feed  = render($page['feed']);
+?>
+
+<?php if ($feed): ?>
+  <div class="social-feed">
+    <div class="container-fluid">
+      <?php print render($page['feed']); ?>
+    </div>
+  </div>
+<?php endif; ?>
 
 <div class="container">
   <footer>
