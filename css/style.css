@@ -7030,7 +7030,8 @@ img {
       margin-left: 16.66667%; } }
 
 footer {
-  padding-bottom: 2em; }
+  padding: 1em 0;
+  color: #999; }
   footer p {
     font-size: 16px; }
 
