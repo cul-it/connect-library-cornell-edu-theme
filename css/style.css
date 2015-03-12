@@ -6906,7 +6906,7 @@ button.close {
 body {
   font-family: "Lato";
   font-weight: 400;
-  background: #dfdfdf;
+  background: #222;
   color: black; }
 
 a {
@@ -6962,7 +6962,7 @@ img {
     color: black; }
 
   .caption {
-    color: #333; } }
+    color: #222; } }
 /* Medium devices (desktops, 992px and up) */
 .jumbotron {
   color: white;
@@ -7123,14 +7123,14 @@ footer {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  color: #333;
+  color: #222;
   padding: 30px; }
   .navbar .nav li {
     font-size: 40px;
     text-transform: uppercase;
     float: left; }
     .navbar .nav li a {
-      color: #333;
+      color: #222;
       text-decoration: none; }
       .navbar .nav li a i {
         color: #dfdfdf;
