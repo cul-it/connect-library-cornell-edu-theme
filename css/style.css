@@ -7089,8 +7089,8 @@ footer {
 .social-flickr {
   background: #621ea8; }
 
-.social-label:hover {
-  color: black; }
+a:hover .social-label {
+  background: black; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {

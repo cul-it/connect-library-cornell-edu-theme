@@ -119,8 +119,10 @@ footer {
 .social-flickr {
 	background: $flickr;
 }
-.social-label:hover {
-	color: black;
+a:hover {
+	.social-label {
+		background: black;
+	}
 }
 
 // MEDIA QUERIES
