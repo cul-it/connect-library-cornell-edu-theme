@@ -126,6 +126,9 @@ a:hover {
 }
 .tooltip-inner {
 	background: red;
+	.tooltip-arrow {
+		border-color: red !important;
+	}
 }
 
 // MEDIA QUERIES
