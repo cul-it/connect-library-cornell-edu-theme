@@ -7034,6 +7034,8 @@ footer {
   color: #999; }
   footer p {
     font-size: 16px; }
+  footer a, footer a:hover {
+    color: white; }
 
 #skiptocontent a {
   padding: 6px;
