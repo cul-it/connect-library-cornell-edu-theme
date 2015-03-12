@@ -54,8 +54,7 @@
     </div>
   </div>
 </div>
-
-<!-- <div class="jumbotron">
+<div class="main-content">
   <div class="container">
     <div class="row">
       <div class="main-text">
@@ -80,13 +79,8 @@
       </div>
     </div>
   </div>
-</div> -->
-
-<div class="social-feed">
-  <div class="container-fluid">
-    <?php print render($page['feed']); ?>
-  </div>
 </div>
+
 
 <div class="container">
   <footer>
