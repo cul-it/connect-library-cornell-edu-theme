@@ -6898,12 +6898,10 @@ button.close {
   .search-links li {
     display: inline; }
   .search-links a {
-    color: white;
+    color: #b31b1b;
     text-decoration: none;
     font-size: 11px;
     padding: 5px 15px; }
-  .search-links a:hover {
-    background: #05b7c7; }
 
 body {
   font-family: "Lato";

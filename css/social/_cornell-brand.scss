@@ -47,10 +47,10 @@
 	  	list-style: none; }
 	li { display: inline; }
 	a {
-	  	color: white;
+	  	color: $cornell-primary;
 	  	text-decoration: none;
 	  	font-size: 11px;
 	  	padding: 5px 15px; }
-	a:hover { background: $ice-blue; }
+	// a:hover { background: $ice-blue; }
 }
 
