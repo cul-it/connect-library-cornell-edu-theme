@@ -28,32 +28,20 @@
   <div class="container">
     <div class="row">
       <div class="brand">
-        <a class="navbar-brand" href="/">Social@CUL</a>
+        <a class="navbar-brand" href="/">Social<span>@</span>CUL</a>
       </div>
       <div class="social-types">
-        <ul class="nav nav-icons">
-          <li><a href="#"><i class="fa fa-pencil"></i></a></li>
-          <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-          <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-          <li><a href="#"><i class="fa fa-flickr"></i></a></li>
-        </ul>
+        <?php print render($page['navigation']); ?>
       </div>
-
-      <!-- <div class="navigation">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <i class="fa fa-bars"></i> Menu
-        </button>
-        <div class="navbar-collapse collapse">
-          <div class="nav navbar-nav">
-            <?php print render($page['navigation']); ?>
-          </div>
-        </div><
-      </div> -->
+    </div>
+    <div class="row">
+      <div class="intro-text">
+        <?php print render($page['introtext']); ?>
+      </div>
     </div>
   </div>
 </div>
+
 <div class="main-content">
   <div class="container">
     <div class="row">

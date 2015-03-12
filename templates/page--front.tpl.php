@@ -31,19 +31,12 @@
         <a class="navbar-brand" href="/">Social<span>@</span>CUL</a>
       </div>
       <div class="social-types">
-        <ul class="nav nav-icons">
-          <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Blogs"><i class="fa fa-pencil"></i><span class="sr-only">Blogs</span></a></li>
-          <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook-square"></i><span class="sr-only">Facebook</span></a></li>
-          <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a><span class="sr-only">Twitter</span></li>
-          <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="fa fa-instagram"></i></a><span class="sr-only">Instagram</span></li>
-          <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="YouTube"><i class="fa fa-youtube"></i></a><span class="sr-only">YouTube</span></li>
-          <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Flickr"><i class="fa fa-flickr"></i></a><span class="sr-only">Flickr</span></li>
-        </ul>
+        <?php print render($page['navigation']); ?>
       </div>
     </div>
     <div class="row">
       <div class="intro-text">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat ligula in risus interdum, nec commodo ipsum consectetur.</p>
+        <?php print render($page['introtext']); ?>
       </div>
     </div>
   </div>
