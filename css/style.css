@@ -6838,7 +6838,7 @@ button.close {
   content: ""; }
 
 .cornell-brand {
-  background: #4d4e53;
+  background: white;
   font-family: verdana, sans-serif; }
   .cornell-brand img {
     padding: 0;
@@ -6857,7 +6857,7 @@ button.close {
 
 .cu-logo {
   display: block;
-  background: url("../images/layout/cul-logo-gray.gif") no-repeat 0 0;
+  background: url("../images/layout/cul-logo-white.gif") no-repeat 0 0;
   width: 263px;
   height: 75px; }
   .cu-logo a {
