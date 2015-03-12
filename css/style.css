@@ -6953,7 +6953,8 @@ img {
     color: #222; } }
 /* Medium devices (desktops, 992px and up) */
 .main-content {
-  background: #dfdfdf; }
+  background: #dfdfdf;
+  padding: 2em 0; }
 
 .front .main-text {
   font-size: 28px; }
