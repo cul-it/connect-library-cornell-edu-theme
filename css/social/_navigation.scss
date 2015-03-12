@@ -46,10 +46,10 @@
 					margin-left: 5px;
 				}
 			}
-			a:hover {
-				background: none;
+			a:hover, a:active, a:focus {
+				// background: inherit !important;
 				i {
-					background: white;
+					color: white;
 				}
 
 			}

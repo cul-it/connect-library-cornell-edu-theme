@@ -7147,10 +7147,8 @@ a:hover .social-label {
       .navbar .nav li a i {
         color: #dfdfdf;
         margin-left: 5px; }
-    .navbar .nav li a:hover {
-      background: none; }
-      .navbar .nav li a:hover i {
-        background: white; }
+    .navbar .nav li a:hover i, .navbar .nav li a:active i, .navbar .nav li a:focus i {
+      color: white; }
   .navbar .nav li.active a, .navbar .nav li.active a:hover {
     color: white;
     background-color: #05b7c7; }
