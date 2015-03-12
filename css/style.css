@@ -7092,12 +7092,6 @@ footer {
 a:hover .social-label {
   background: black; }
 
-.tooltip-inner {
-  background: red; }
-
-.tooltip .tooltip-arrow {
-  border-bottom-color: red !important; }
-
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .front .main-text {
@@ -7150,7 +7144,7 @@ a:hover .social-label {
     .navbar .nav li a:hover, .navbar .nav li a:active, .navbar .nav li a:focus {
       background: inherit !important; }
       .navbar .nav li a:hover i, .navbar .nav li a:active i, .navbar .nav li a:focus i {
-        color: red; }
+        color: white; }
   .navbar .nav li.active a, .navbar .nav li.active a:hover {
     color: white;
     background-color: #05b7c7; }
@@ -7164,6 +7158,13 @@ a:hover .social-label {
   font-size: 16px;
   text-transform: uppercase;
   border-radius: 0; }
+
+.tooltip-inner {
+  background: white;
+  color: black; }
+
+.tooltip .tooltip-arrow {
+  border-bottom-color: white !important; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
