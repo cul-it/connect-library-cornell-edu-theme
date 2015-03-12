@@ -7096,7 +7096,7 @@ a:hover .social-label {
   background: red; }
 
 .tooltip-arrow {
-  border-bottom-color: red; }
+  border-color: red; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
