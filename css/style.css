@@ -6927,18 +6927,6 @@ p, li {
   border-radius: 0;
   text-decoration: none; }
 
-.btn-tarr {
-  background: #05b7c7;
-  color: white; }
-  .btn-tarr i {
-    margin-left: 5px; }
-  .btn-tarr .fa-external-link {
-    font-size: 14px; }
-
-.btn-tarr:hover {
-  background: #049dab;
-  color: white; }
-
 img {
   padding: 3px;
   border: 1px solid #dfdfdf; }
@@ -6964,32 +6952,8 @@ img {
   .caption {
     color: #222; } }
 /* Medium devices (desktops, 992px and up) */
-.jumbotron {
-  color: white;
-  padding: 30px 15px; }
-  .jumbotron h1 {
-    font-size: 40px;
-    color: black; }
-  .jumbotron .btn-tarr {
-    font-size: 18px; }
-
-.main-text {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-top: 1em; }
-  @media (min-width: 768px) {
-    .main-text {
-      float: left;
-      width: 83.33333%; } }
-  @media (min-width: 768px) {
-    .main-text {
-      margin-left: 8.33333%; } }
-  .main-text .btn-tarr {
-    margin-right: 5px; }
-  .main-text p {
-    font-size: 22px; }
+.main-content {
+  background: #dfdfdf; }
 
 .front .main-text {
   font-size: 28px; }

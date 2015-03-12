@@ -1,27 +1,19 @@
 // Home page content
 // -------------------------
 
-.jumbotron {
-	color: white;
-	padding: 30px 15px;
-	h1 {
-		font-size: 40px;
-		color: black;
-	}
-	.btn-tarr {
-		font-size: 18px;
-	}
-}
-.main-text {
-	@include make-sm-column(10);
-	@include make-sm-column-offset(1);
-	margin-top: 1em;
-	.btn-tarr {
-		margin-right: 5px;
-	}
-	p {
-		font-size: 22px;
-	}
+// .jumbotron {
+// 	color: white;
+// 	padding: 30px 15px;
+// 	h1 {
+// 		font-size: 40px;
+// 		color: black;
+// 	}
+// 	.btn-tarr {
+// 		font-size: 18px;
+// 	}
+// }
+.main-content {
+	background: $light-gray;
 }
 .front {
 	.main-text {
