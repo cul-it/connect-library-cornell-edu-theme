@@ -7060,7 +7060,9 @@ footer {
   .social-feed .panel {
     border-radius: 0;
     box-shadow: none;
-    border: 0; }
+    border: 0;
+    height: 250px;
+    overflow: hidden; }
 
 .social-label {
   padding: 6px 8px;
