@@ -69,7 +69,7 @@
 -->
 
 <script type="text/javascript">
-jQuery(document).ready(function() {
+$(document).ready(function() {
   var $container = $('.masonry-container');
   // initialize
   $container.masonry({
@@ -77,7 +77,6 @@ jQuery(document).ready(function() {
     itemSelector: '.item'
   });
 });
-
 var msnry = $container.data('masonry');
 </script>
 <!--
