@@ -57,7 +57,7 @@
 <?php print render($page['bottom']); ?>
 
 <script type="text/javascript">
-  var container = document.querySelector('.view-social-aggregator-with-masonry');
+  var container = document.querySelector('.masonry-container');
   var msnry = new Masonry( container, {
     // options
     columnWidth: 200,
