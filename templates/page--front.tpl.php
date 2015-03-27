@@ -57,7 +57,7 @@
 <?php print render($page['bottom']); ?>
 
 
-<!--
+
 <script type="text/javascript">
   var container = document.querySelector('.masonry-container');
   var msnry = new Masonry( container, {
@@ -66,8 +66,8 @@
     itemSelector: '.item'
   });
 </script>
--->
 
+<!--
 <script type="text/javascript">
 $(document).ready(function() {
   var $container = $('.masonry-container');
@@ -79,6 +79,7 @@ $(document).ready(function() {
 });
 var msnry = $container.data('masonry');
 </script>
+-->
 <!--
 <script type="text/javascript">
 jQuery(document).ready(function() { 

@@ -19,5 +19,5 @@ regions[homecontent]   	= 'Home page content'
 ; stylesheets[all][] = css/style.css
 
 ; Scripts
-scripts[] = js/bootstrap.min.js
-; scripts[] = js/masonry.pkgd.min.js
+scripts[] = javascripts/bootstrap.min.js
+scripts[] = javascripts/masonry.pkgd.min.js

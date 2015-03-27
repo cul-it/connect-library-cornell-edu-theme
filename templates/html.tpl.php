@@ -18,7 +18,6 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   <?php print $scripts; ?>
-  <script src="/sites/all/themes/social/js/masonry.pkgd.min.js"></script>
 </head>
 <body class="<?php print $classes; ?>" id="top" <?php print $attributes;?>>
   <?php print $page_top; ?>
