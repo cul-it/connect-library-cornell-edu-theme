@@ -76,7 +76,7 @@ $(function() {
     columnWidth: 200,
     itemSelector: '.item'
   });
-)};
+});
 
 var msnry = $container.data('masonry');
 </script>
