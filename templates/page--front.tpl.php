@@ -69,7 +69,7 @@
 -->
 
 <script type="text/javascript">
-$(function() {
+jQuery(document).ready(function() {
   var $container = $('.masonry-container');
   // initialize
   $container.masonry({
