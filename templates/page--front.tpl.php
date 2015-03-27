@@ -56,6 +56,7 @@
 
 <?php print render($page['bottom']); ?>
 
+<!--
 <script type="text/javascript">
 var container = document.querySelector('.view-social-aggregator-with-masonry');
 var msnry = new Masonry( container, {
@@ -64,6 +65,7 @@ var msnry = new Masonry( container, {
   itemSelector: '.item'
 });
 </script>
+-->
 
 <!--
 <script type="text/javascript">
