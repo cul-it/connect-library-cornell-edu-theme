@@ -55,3 +55,21 @@
 </div> <!-- /container -->
 
 <?php print render($page['bottom']); ?>
+
+<script type="text/javascript">
+var container = document.querySelector('.view-social-aggregator-with-masonry');
+var msnry = new Masonry( container, {
+  // options
+  columnWidth: 200,
+  itemSelector: '.item'
+});
+</script>
+
+<!--
+<script type="text/javascript">
+  jQuery(document).ready(function() { 
+  var randomImages = ['etching1','etching2','etching3','etching4']; 
+  var rndNum = Math.floor(Math.random() * randomImages.length); 
+  jQuery(".hero").css({ background: "url('/sites/all/themes/signale/images/hero/" + randomImages[rndNum] + ".jpg') no-repeat" }); });
+</script>
+-->

@@ -7056,6 +7056,9 @@ footer {
 a:hover .social-label {
   background: black; }
 
+.item {
+  width: 25%; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .front .main-text {
