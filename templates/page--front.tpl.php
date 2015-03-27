@@ -67,6 +67,7 @@
 </script>
 -->
 <script type="text/javascript">
+jQuery(document).ready(function() { 
   var $container = $('.masonry-container');
   // initialize
   $container.masonry({
@@ -75,6 +76,7 @@
   });
 
   var msnry = $container.data('masonry');
+});
 </script>
 <!--
 <script type="text/javascript">
