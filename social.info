@@ -20,4 +20,4 @@ regions[homecontent]   	= 'Home page content'
 
 ; Scripts
 scripts[] = js/bootstrap.min.js
-scripts[] = js/masonry.pkgd.min.js
+; scripts[] = js/masonry.pkgd.min.js
