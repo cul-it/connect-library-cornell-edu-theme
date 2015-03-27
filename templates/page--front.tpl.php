@@ -56,16 +56,14 @@
 
 <?php print render($page['bottom']); ?>
 
-<!--
 <script type="text/javascript">
-var container = document.querySelector('.view-social-aggregator-with-masonry');
-var msnry = new Masonry( container, {
-  // options
-  columnWidth: 200,
-  itemSelector: '.item'
-});
+  var container = document.querySelector('.view-social-aggregator-with-masonry');
+  var msnry = new Masonry( container, {
+    // options
+    columnWidth: 200,
+    itemSelector: '.item'
+  });
 </script>
--->
 
 <!--
 <script type="text/javascript">
