@@ -70,7 +70,7 @@
 jQuery(document).ready(function() { 
   var $container = $('.masonry-container');
   // initialize
-  $container.masonry({
+  jQuery($container).masonry({
     columnWidth: 200,
     itemSelector: '.item'
   });
