@@ -85,3 +85,14 @@
 </div> <!-- /container -->
 
 <?php print render($page['bottom']); ?>
+
+<script type="text/javascript">
+  var container = document.querySelector('.masonry-container');  
+  imagesLoaded( container, function() {
+    var msnry = new Masonry( container, {
+      // options
+      columnWidth: 50,
+      itemSelector: '.item'
+    });
+  });
+</script>
