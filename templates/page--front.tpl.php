@@ -61,7 +61,7 @@
   var container = document.querySelector('.masonry-container');
   var msnry = new Masonry( container, {
     // options
-    columnWidth: 50,
+    columnWidth: 100,
     itemSelector: '.item'
   });
 </script>
