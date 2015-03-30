@@ -62,7 +62,7 @@
   imagesLoaded( container, function() {
     var msnry = new Masonry( container, {
       // options
-      columnWidth: 25,
+      columnWidth: 50,
       itemSelector: '.item'
     });
   });
