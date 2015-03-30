@@ -58,8 +58,8 @@
 
 
 <script type="text/javascript">
-  $(window).ready(function() {
-    var container = document.querySelector('.masonry-container');
+  var container = document.querySelector('.masonry-container');
+  imagesLoaded( container, function() {
     var msnry = new Masonry( container, {
       // options
       columnWidth: 100,
