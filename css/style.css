@@ -7018,7 +7018,8 @@ footer {
 
 .social-feed {
   background: #dfdfdf;
-  padding: 1em 0; }
+  padding: 1em 0;
+  padding-left: 3em; }
   .social-feed .panel-body img {
     max-width: 100%;
     height: auto;
