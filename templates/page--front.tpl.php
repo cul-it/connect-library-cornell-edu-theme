@@ -43,7 +43,7 @@
 </div>
 
 <div class="social-feed">
-  <div class="container">
+  <div class="container-fluid">
     <?php print render($page['feed']); ?>
   </div>
 </div>
