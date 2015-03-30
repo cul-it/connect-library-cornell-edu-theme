@@ -58,10 +58,12 @@
 
 
 <script type="text/javascript">
-  var container = document.querySelector('.masonry-container');
-  var msnry = new Masonry( container, {
-    // options
-    columnWidth: 100,
-    itemSelector: '.item'
+  $(window).ready(function() {
+    var container = document.querySelector('.masonry-container');
+    var msnry = new Masonry( container, {
+      // options
+      columnWidth: 100,
+      itemSelector: '.item'
+    });
   });
 </script>
