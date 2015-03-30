@@ -120,7 +120,11 @@ a:hover {
 }
 
 .item { width: 15%; }
-
+.view-social-aggregator-with-masonry {
+	.pager {
+		display: none;
+	}
+}
 
 // MEDIA QUERIES
 // -------------------------
