@@ -60,10 +60,7 @@
 <script type="text/javascript">
   var container = document.querySelector('.masonry-container');
   imagesLoaded( container, function() {
-    var msnry = new Masonry( container, {
-      // options
-      columnWidth: 100,
-      itemSelector: '.item'
-    });
+    msnry = new Masonry( container );
   });
 </script>
+
